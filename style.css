@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: .1rem;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(250, 128, 114, 1);
+    display: flex;
+    justify-content: center;
+    gap: 0px 4rem;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    padding-left: 30px;
+    line-height: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+a:hover {
+    color: white;
+}
+
+#menu-image {
+    height: 23px;
+    width: 25px;
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#text {
+    height: 90%;
+    width: 49wh;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background: linear-gradient(100deg, #f0e68c 50%, rgba(255, 182, 193, 0.7));
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 330%;
+    letter-spacing: .3rem;
+}
+
+#button {
+    padding: 0.7rem 4rem;
+    color: #fff;
+    background-color: rgba(250, 128, 114, 1);
+    border-radius: 0px;
+    border: 1px solid rgba(250, 128, 114, 1);
+}
+
+#button:hover {
+    box-shadow: 0px 0px 20px -12px black;
+    cursor: pointer;
+}
+
+.text-spacing {
+    letter-spacing: 0px;
+    margin-top: 80px;
+}
+
+#burger-image {
+    height: 100%;
+    width: 600px;
+    object-fit: cover;
+}
+
+.second-page {
+    height: 95vh;
+    width: 100%;
+    background: linear-gradient(150deg, #f0e68c 10rem, rgba(221, 160, 221, 1) 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.wrapper {
+    height: 20.2rem;
+    width: 400px;
+    display: flex;
+    gap: 10px;
+}
+
+#img1,
+#img2 {
+    height: 10rem;
+    width: 12rem;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+#img1 {
+    object-position: top left;
+}
+
+#img2 {
+    object-position: bottom left;
+}
+
+#img3 {
+    height: 20.2rem;
+    width: 224px;
+    object-position: right;
+    object-fit: cover;
+}
+
+
+.second-page-button {
+    height: 9rem;
+    width: 17rem;
+    padding: 1rem 2rem;
+    background-color: rgba(250, 128, 114, 1);
+}
+
+#first-p {
+
+    font-size: small;
+}
+
+#second-p {
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: .2rem;
+    font-family: Arial, sans-serif;
+}
+
+#second-button {
+    border: none;
+    background-color: rgba(250, 128, 114, 1);
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+#second-button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+#arrow-image {
+    display: inline-block;
+}
+
+#img-arrow {
+    height: 1rem;
+    width: 1rem;
+}
